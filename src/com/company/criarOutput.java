@@ -4,12 +4,12 @@ import java.io.*;
 import java.lang.*;
 import java.util.*;
 
-public class createfile {
+public class criarOutput {
 
     private Formatter x;
     public void openFile(){
         try{
-            x = new Formatter("output1.txt");
+            x = new Formatter("output.txt");
         }
         catch(Exception e){
             System.out.println("you have an error");
